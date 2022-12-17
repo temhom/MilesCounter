@@ -29,4 +29,5 @@ bin/
 .DS_Store
 
 /out/
+.idea/
 /.idea/
