@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-int a = 8800; // Стоимость билета
+        int ticketPrice = 8800; // Стоимость билета
 
-int b = 20; // Обменный курс рубль/миля
+        int exchangeCourse = 20; // Обменный курс рубль/миля
 
-int result = a / b; // Результат
+        int result = ticketPrice / exchangeCourse; // Результат
 
         System.out.println("Поздравляем! Ваш билет заработал бонусы.");
         System.out.println("Эти мили для полётов теперь ваши: " + (result) + ".");
